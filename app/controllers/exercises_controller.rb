@@ -1,5 +1,6 @@
-class MealsController < ApplicationController
+class ExercisesController < ApplicationController
 
+    
     def index
     end
 
@@ -14,4 +15,5 @@ class MealsController < ApplicationController
 
     def destroy
     end
+
 end

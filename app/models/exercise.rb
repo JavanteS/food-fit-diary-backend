@@ -1,3 +1,3 @@
-class Meal < ApplicationRecord
+class Exercise < ApplicationRecord
     validates :name, presence: true
 end
