@@ -25,4 +25,10 @@ class MealsController < ApplicationController
         meal = Meal.find_by(id: params[:id])
         meal.destroy
     end
+
+    private
+
+    def meal_params
+        params.require(:meal).permit(:name, :category,:date, :calories)
+    end
 end

@@ -26,4 +26,10 @@ class ExercisesController < ApplicationController
         exercise.destroy
     end
 
+    private
+
+    def exercise_params
+        params.require(:exercise).permit(:name, :duration,:date, :calories)
+    end
+
 end
