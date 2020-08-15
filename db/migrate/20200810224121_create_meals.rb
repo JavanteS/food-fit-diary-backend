@@ -4,7 +4,7 @@ class CreateMeals < ActiveRecord::Migration[6.0]
       t.string :name
       t.string :category
       t.integer :calories
-      t.datetime :date
+      t.string :date
 
       t.timestamps
     end

@@ -8,6 +8,7 @@ class ExercisesController < ApplicationController
 
     def create
         exercise = Exercise.create(exercise_params)
+        render json: exercise
     end
 
     def show
@@ -29,7 +30,7 @@ class ExercisesController < ApplicationController
     private
 
     def exercise_params
-        params.require(:exercise).permit(:name, :duration,:date, :calories)
+        params.require(:exercise).permit(:name, :duration,:calories,:date)
     end
 
 end

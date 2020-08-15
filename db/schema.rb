@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 2020_08_10_225100) do
     t.string "name"
     t.string "duration"
     t.integer "calories"
-    t.datetime "date"
+    t.string "date"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(version: 2020_08_10_225100) do
     t.string "name"
     t.string "category"
     t.integer "calories"
-    t.datetime "date"
+    t.string "date"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

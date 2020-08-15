@@ -7,7 +7,7 @@ class MealsController < ApplicationController
 
     def create
         meal = Meal.create(meal_params)
-        
+        render json: meal
     end
 
     def show
@@ -29,6 +29,6 @@ class MealsController < ApplicationController
     private
 
     def meal_params
-        params.require(:meal).permit(:name, :category,:date, :calories)
+        params.require(:meal).permit(:name, :category,:calories,:date)
     end
 end
