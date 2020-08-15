@@ -1,24 +1,24 @@
 # README
+# Food-Fit-Diary
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  Food-Fit-Diary
+      
+      A user can add the meals to their diary. Each meal show when the meal was eaten, calories cosumend, and its category. A user can also add workout which works
+      the same as adding meal. The user can view calories burned and duration in their workout diary. 
+  
+   Installation instructions
+       
+       Please clone this repo and run bundle install. Then, run rails s to start the server. 
+       
+    
+  Contributing guide
+       
+       Please see Code of Conduct file for details. 
+       
+       
+  License
+     
+     This project is licensed under the MIT License – see the LICENSE file for details.
+      
+      
+  
